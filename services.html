@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container ">
+       <a class="navbar-brand" href="#">Emobilis</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbarcontent">
+           <span class="navbar-toggler-icon"></span> 
+       </button>
+        <div id="mynavbarcontent" class="collapse navbar-collapse">
+         <ul class="navbar-nav">
+           <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+           <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+           <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+         </ul>  
+        </div>
+        </div>
+       </nav>
+       <h2 class="text-center">Our services</h2>
+       <div class="container">
+        <div class="row">
+            
+      <div class="col-4">
+                
+        <div class="card-shadow-sm h-100">
+        <img src="images/guitar.jpeg">
+        <div class="card-body">
+        <h5 class="card-title">Guitar instrument</h5>
+        <p class="card-text">Learn how to play the guitar.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Learn More</button>
+        </div>
+        </div>
+        </div>
+                
+              
+            <div class="col-4">
+                <div class="card-shadow-sm h-100">                
+        <img src="images/piano.jpeg">
+        <div class="card-body">
+        <h5 class="card-title">Piano instrument</h5>
+            <p class="card-text">Learn how to play the piano.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Learn More</button>
+                        </div>
+            </div>
+            </div>
+                            
+                            
+         <div class="col-4">
+          <div class="card-shadow-sm h-100">                             
+        <img src="images/violin.jpeg">
+        <div class="card-body">
+            <h5 class="card-title">Violin instrument</h5>
+            <p class="card-text">Learn how to play the violin.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Learn More</button>
+        </div>
+         </div>
+       </div>
+    </div>
+    </div>
+    <!--modal-->
+    <div class="modal" tabindex="-1" id="mymodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Instruments</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>We teach students how to play violins,guitars and pianos and how to read and write music on sheets..</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
